@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Tareas-Tablero</title>
+    </head>
+    <body>
+        <center>
+            <h1>Tareas</h1>
+            <label class="texto">Ingrese la tarea</label>
+            <br>
+            <input type="text" id="ingresarTarea" class="ingresoTexto">
+            <input type="checkbox" id="valor1" value="alto"><span>Alto</span>
+            <input type="checkbox" id="valor2" value="Bajo"><span>Bajo</span>
+            <button class="botonAgregar" onclick="agregarTarea()">Agregar</button>
+            <br>
+            <div class="lista">
+                <h2>Alto</h2>
+                <ul id="listaTareas"></ul>
+            </div>
+            <div class="lista2">
+                <h2>Bajo</h2>
+                <ul id="listaTareas2"></ul>
+            </div>
+        </center>
+
+
+        <script src="app.js"></script>
+    </body>
+</html>
